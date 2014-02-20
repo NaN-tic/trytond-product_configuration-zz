@@ -30,6 +30,7 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
 
         <menuitem
                 id="menu_product_configuration"
+                icon="tryton-list"
                 name="Product Configuration"
                 parent="menu_configuration"
                 action="act_product_configuration_form"/>
