@@ -18,7 +18,7 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
         </record>
 
         <record model="ir.action.act_window" id="act_product_configuration_form">
-            <field name="name">Product Configuration</field>
+            <field name="name">Products Configuration</field>
             <field name="res_model">product.configuration</field>
         </record>
 
@@ -34,22 +34,5 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
                 name="Product Configuration"
                 parent="menu_configuration"
                 action="act_product_configuration_form"/>
-
-        <record model="ir.model.access" id="access_product_product_administration">
-            <field name="model" search="[('model', '=', 'product.configuration.company')]"/>
-            <field name="group" ref="product.group_product_admin"/>
-            <field name="perm_read" eval="True"/>
-            <field name="perm_write" eval="True"/>
-            <field name="perm_create" eval="True"/>
-            <field name="perm_delete" eval="True"/>
-        </record>
-
-        <record model="ir.model.access" id="access_product_product">
-            <field name="model" search="[('model', '=', 'product.configuration.company')]"/>
-            <field name="perm_read" eval="True"/>
-            <field name="perm_write" eval="False"/>
-            <field name="perm_create" eval="False"/>
-            <field name="perm_delete" eval="False"/>
-        </record>
     </data>
 </tryton>
