@@ -2,10 +2,6 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "error:product.configuration.company:"
-msgid "There is already one configuration for this company."
-msgstr "Hi ha una altre configuració per aquesta empresa."
-
 msgctxt "field:product.configuration,create_date:"
 msgid "Create Date"
 msgstr "Data creació"
@@ -30,33 +26,9 @@ msgctxt "field:product.configuration,write_uid:"
 msgid "Write User"
 msgstr "Usuari modificació"
 
-msgctxt "field:product.configuration.company,company:"
-msgid "Company"
-msgstr "Empresa"
-
-msgctxt "field:product.configuration.company,create_date:"
-msgid "Create Date"
-msgstr "Data creació"
-
-msgctxt "field:product.configuration.company,create_uid:"
-msgid "Create User"
-msgstr "Usuari creació"
-
-msgctxt "field:product.configuration.company,id:"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "field:product.configuration.company,rec_name:"
-msgid "Name"
-msgstr "Nom"
-
-msgctxt "field:product.configuration.company,write_date:"
-msgid "Write Date"
-msgstr "Data modificació"
-
-msgctxt "field:product.configuration.company,write_uid:"
-msgid "Write User"
-msgstr "Usuari modificació"
+msgctxt "model:ir.action,name:act_product_configuration_form"
+msgid "Products Configuration"
+msgstr "Configuració de productes"
 
 msgctxt "model:ir.ui.menu,name:menu_configuration"
 msgid "Configuration"
@@ -70,6 +42,6 @@ msgctxt "model:product.configuration,name:"
 msgid "Product Configuration"
 msgstr "Configuració de productes"
 
-msgctxt "model:product.configuration.company,name:"
-msgid "Product Configuration Company"
-msgstr "Configuració de productes per empresa"
+msgctxt "view:product.configuration:"
+msgid "Product Configuration"
+msgstr "Configuració de productes"
