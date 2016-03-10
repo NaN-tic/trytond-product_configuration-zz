@@ -22,7 +22,7 @@ class Configuration(ModelSingleton, ModelSQL, ModelView):
         pool = Pool()
         Module = pool.get('ir.module')
 
-        cursor = Transaction().cursor
+        cursor = Transaction().connection.cursor()
         module = Module.__table__()
 
         cursor.execute(*module.update(
